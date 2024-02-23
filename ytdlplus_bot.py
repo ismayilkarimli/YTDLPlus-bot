@@ -27,7 +27,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 async def usage_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /usage is issued."""
-    await update.message.reply_text("Send a single or list of video links to be converted. Use playlist command to download a playlist")
+    await update.message.reply_text("Send a single or list of video links to be converted.")
 
 def get_title(url):
 	"""get the title from the video url"""
